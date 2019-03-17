@@ -6,5 +6,12 @@
 2. JobManager收到作业提交消息开始构建ExecutionGraph:JobManager.hanleMessage,case SubmitJob消息处理
 3. TaskManager 
 
-### 关联类信息
-1. org.apache.flink.api.common.typeutils.base包 -> Flink 自定义序列化框架
+### Flink自定义序列化
+1. IntSerializer -> 4字节
+2. FloatSerializer -> 4字节
+3. EnumSerializer -> 4字节
+4. LongSerializer -> 8字节
+5. ShortSerializer -> 2字节
+6. DoubleSerializer -> 8字节
+7. BooleanSerializer -> 1字节
+8. ByteSerializer -> 1字节

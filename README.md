@@ -4,3 +4,7 @@
 ### 代码导读
 1. DataStream流作业提交流程：RemoteStreamEnvironment.execute()开始看起
 2. JobManager收到作业提交消息开始构建ExecutionGraph:JobManager.hanleMessage,case SubmitJob消息处理
+3. TaskManager 
+
+### 关联类信息
+1. org.apache.flink.api.common.typeutils.base包 -> Flink 自定义序列化框架

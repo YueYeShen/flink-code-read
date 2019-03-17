@@ -15,3 +15,5 @@
 6. DoubleSerializer -> 8字节
 7. BooleanSerializer -> 1字节
 8. ByteSerializer -> 1字节
+9. CharSerializer -> 2字节
+10. DateSerializer -> 8字节

@@ -28,6 +28,7 @@ import java.util.Iterator;
  * is partitioned for keyed state-handling in state backends. The boundaries of the range are inclusive.
  */
 /** KeyGroupRange */
+/** 这是key Group*/
 public class KeyGroupRange implements KeyGroupsList, Serializable {
 
 	private static final long serialVersionUID = 4869121477592070607L;

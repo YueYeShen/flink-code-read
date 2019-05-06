@@ -20,7 +20,7 @@ package org.apache.flink.runtime.state;
 
 import org.apache.flink.util.MathUtils;
 import org.apache.flink.util.Preconditions;
-
+/** 用来划分Key 属于哪个KeyGroup */
 public final class KeyGroupRangeAssignment {
 
 	/**
